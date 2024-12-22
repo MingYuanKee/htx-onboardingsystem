@@ -30,7 +30,7 @@ const EmployeeSchema = new Schema({
         }
     }
 });
-// Export both models in an object
+
 module.exports = {
     Employee: mongoose.model('employees', EmployeeSchema)
 };
