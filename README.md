@@ -68,8 +68,12 @@ Go to 'http://localhost:3000/' and refresh the webpage
 Populate the fields and click 'Create New Account':
 ![image](https://github.com/user-attachments/assets/0bba4061-6204-430f-ad75-0005a2116aef)
 
-Error page should be seen:
+Error page should be seen, this will be a clear indication to the user that the employee account creation operation has failed and the HR side can note down the timestamp of when the operation failed and request help from the relevant teams to check for the cause of error in the 'Logs' of the app in Docker:
 ![image](https://github.com/user-attachments/assets/3e27328b-ea5a-48f6-be6b-df5a7cd5a08f)
+
+Where to go to to check for logs in Docker:
+![image](https://github.com/user-attachments/assets/7d11d7ed-787d-4b1a-adbb-920bd5116da2)
+
 
 In continuation from where it was left off in the git cmd, input the below:<br>
 control c<br>
