@@ -90,5 +90,6 @@ db.onboardingtasks.find().pretty()<br>
 
 No task should be created for that employee:
 ![image](https://github.com/user-attachments/assets/9871555d-548a-4760-9627-eb7b5b1fe186)
-
+<br><br>
+Thank you
 
