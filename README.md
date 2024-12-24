@@ -1,8 +1,8 @@
 # htx-onboardingsystem
 
-Hi HTX Team, this project has used the MVC (Model-View-Controller) architecture with an API-based integration between the HR System (System A) and the Onboarding System (System B).<br><br>
+Hi HTX Team, this project has used the MVC (Model-View-Controller) architecture with an API-based integration between the HR System (System A) and the Onboarding System (System B). With MVC, With MVC, there is a full control over the code, allowing the implementation of complicated custom business logic, complex integrations, or more advanced workflows.<br><br>
 
-Please clone this repo and take note of the directory where it is stored in your local laptop. After cloning, please run the below script on git cmd.<br>
+Please clone this repo and take note of the directory where it is stored in your local laptop. After cloning, please run the below script on git cmd.<br><br>
 Script to run in got cmd after cloning this git (the first 2 lines below is to point the directory to where the files are stored in your local from the cloning of this repo):
 cd .ssh<br>
 cd htx-onboardingsystem<br>
