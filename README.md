@@ -1,8 +1,9 @@
 # htx-onboardingsystem
 
-Hi HTX Team, this project has used the MVC (Model-View-Controller) architecture with an API-based integration between the HR System (System A) and the Onboarding System (System B).
+Hi HTX Team, this project has used the MVC (Model-View-Controller) architecture with an API-based integration between the HR System (System A) and the Onboarding System (System B).<br><br>
 
-# Script to run in got cmd after cloning this git:
+Please clone this repo and take note of the directory where it is stored in your local laptop. After cloning, please run the below script on git cmd.<br>
+# Script to run in got cmd after cloning this git (the first 2 lines below is to point the directory to where the files are stored in your local from the cloning of this repo):
 cd .ssh<br>
 cd htx-onboardingsystem<br>
 docker compose up -d<br>
@@ -19,7 +20,7 @@ npm install dotenv<br>
 exit<br>
 docker compose up -d --build<br>
 
-When an employee account is created, I have chosen the 'employee issues (laptop, staff pass, welcome goody bag)'. This means in a positive scenario, there should be 1 employee record created and 3 tasks created, which are associated to that new employee account which was created.
+When an employee account is created, I have chosen the 'employee issues (laptop, staff pass, welcome goody bag)' as per the instructions written in the PDF. This means in a positive scenario, there should be 1 employee record created and 3 tasks associated to that new employee account, created.
 
 As the requirement includes 'manage failures during the integration process', there will be a negative test scenario where the onboarding process is unsuccessful and no employee account and no tasks are created (rollback).
 
